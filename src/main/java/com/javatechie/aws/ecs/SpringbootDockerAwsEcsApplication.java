@@ -14,12 +14,12 @@ public class SpringbootDockerAwsEcsApplication {
 
     @GetMapping
     public String applicationStatus() {
-        return "Application is up and running !";
+        return "Springboot Application is up and running !";
     }
 
     @GetMapping("/{name}")
     public String welcome(@PathVariable String name) {
-        return "Hi " + name + " Welcome to javatechie AWS ECS Example";
+        return "Hi " + name + " Welcome to AWS CI/CD deploy to Elastic Container Service";
     }
 
     public static void main(String[] args) {
