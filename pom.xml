@@ -45,6 +45,7 @@
 				<version>2.3.0.RELEASE</version>
 			</plugin>
 		</plugins>
+		<finalName>springboot-app-docker-ecs</finalName>
 	</build>
 
 </project>
